@@ -1,8 +1,133 @@
+/*nav bar compononent css*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', 'sans-sherif';
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #5a5a5a;
+}
+img{
+  cursor: pointer;
+}
 
+
+.flex-div{
+  align-items: center;
+  display: flex;
+}
+nav{
+  padding: 10px 2%;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.nav-right button{
+  margin-right: 25px;
+  background-color: blue;
+  color: aqua;
+  height: 30px;
+  width: 80px;
+}
+.nav-right .user-icon{
+  width: 35px;
+  border-radius: 50%;
+  margin-right: 0;
+}
+
+.nav-left .logo{
+  width: 130px;
+  height: 30px;
+}
+
+/*.nav-middle .mic-icon{
+  width: 16px;
+}*/
+
+.nav-middle .search-box{
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+
+.nav-middle .search-box input{
+  width: 400px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+.nav-middle .search-box img{
+  width: 15px;
+}
+
+.nav-left .menu-icon{
+  width: 22px;
+  margin-right: 25px;
+}
+
+
+/*sidebar component css*/
+
+.sidebar{
+  background-color: #fff;
+  width: 15%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  padding-left: 2%;
+  padding-top: 80px;
+}
+
+.shortcut-links a img{
+  width: 20px;
+  margin-right: 20px;
+}
+
+.shortcut-links a{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+
+.shortcut-links a:first-child{
+  color: #ed3833;
+}
+
+.shortcut-links hr{
+  border: 0;
+  height: 1px;
+  background: #5a5a5a;
+  width: 85%;
+}
+
+.small-sidebar{
+  width: 5%;
+}
+
+.small-sidebar a p{
+  display: none;
+}
+
+.small-sidebar hr{
+  width: 50%;
+  margin-top: 25px;
+}
+
+/*
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
-/* Full-width input fields */
+
+
 input[type=text], input[type=password] {
   width: 300px;
   padding: 15px;
@@ -12,7 +137,7 @@ input[type=text], input[type=password] {
   background: #f1f1f1;
 }
 
-/* Add a background color when the inputs get focus */
+
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
@@ -22,7 +147,7 @@ input[type=text]:focus, input[type=password]:focus {
   position: relative;
 }
 
-/* Set a style for all buttons */
+
 button {
   background-color: #85dce7;
   color: rgb(0, 0, 0);
@@ -40,24 +165,24 @@ button:hover {
   color: #474e5d;
 }
 
-/* Extra styles for the cancel button */
+
 .cancelbtn {
   padding: 14px 20px;
   background-color: #f44336;
 }
 
-/* Float cancel and signup buttons and add an equal width */
+
 .cancelbtn, .signupbtn {
   float: left;
   width: 50%;
 }
 
-/* Add padding to container elements */
+
 .container {
   padding: 16px;
 }
 
-/* The Modal (background) */
+
 .modal {
   display: none;
   position: fixed;
@@ -70,21 +195,21 @@ button:hover {
   padding-top: 34px;
 }
 
-/* Modal Content/Box */
+
 .modal-content {
   background-color: #fefefe;
-  margin: -22px 4px; /* 5% from the top, 15% from the bottom and centered */
+  margin: -22px 4px; 
   border: 32px solid #888;
-  width: 100%; /* Could be more or less, depending on screen size */
+  width: 100%; 
 }
 
-/* Style the horizontal ruler */
+
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
  
-/* The Close Button (x) */
+
 .close {
   position: absolute;
   right: 35px;
@@ -100,14 +225,14 @@ hr {
   cursor: pointer;
 }
 
-/* Clear floats */
+
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
+
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
      width: 50%;
@@ -137,4 +262,5 @@ hr {
   width: 25px;
   height: 25px;
   margin: 15px 5px;
-}
+} 
+*/

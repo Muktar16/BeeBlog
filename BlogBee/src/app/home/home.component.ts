@@ -9,10 +9,10 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   showBlog(path: String){
-    console.log(path);
+    
   }
 
   

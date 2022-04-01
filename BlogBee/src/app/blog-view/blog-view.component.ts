@@ -5,9 +5,14 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './blog-view.component.html',
   styleUrls: ['./blog-view.component.css']
 })
+
 export class BlogViewComponent implements OnInit {
 
   constructor() { }
+
+  fileContent = '';
+  
+  
 
   ngOnInit(): void {
   }
