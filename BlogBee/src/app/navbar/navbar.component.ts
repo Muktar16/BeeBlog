@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -8,7 +7,7 @@ import { Route, Router } from '@angular/router';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor() { }
 
   click=0;
 
@@ -17,13 +16,6 @@ export class NavbarComponent implements OnInit {
      else this.click=0;
   }
 
-  signInButtonAction(){
-    this.router.navigate(['signin']);
-  }
-
-  signUpButtonAction(){
-    this.router.navigate(['signup'])
-  }
   
   ngOnInit(): void {
   }
